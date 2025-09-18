@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    padding-right: 100px;
+    margin-top: 0;
+    padding-top: 30px;
+    letter-spacing: 20px;
+}
+
+h2 {
+    margin-top: 90px;
+}
+
+#Arrow {
+    margin-left: 5px;
+}
+
+#button {
+    border: 1.5px solid black;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+#Info {
+    background-color: #e5e5e5;
+    padding-left: 120px;
+    padding-bottom: 40px;
+}
+
+#Menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: -70px;
+}
+
+.Details {
+    font-size: 14px;
+}
+
+.Price {
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+img {
+    width: 300px;
+    background-color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    justify-items: center;
+}
+
+#Product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 40px;
+    gap: 15px;
+}
+
+#belt {
+    padding-bottom: 55px;
+    padding-top: 50px;
+}
+
+#bag {
+    padding-bottom: 68px;
+}
+
+#jacket {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#purse {
+    padding-bottom: 30px;
+}
+
+#sunglasses {
+    padding-bottom: 45px;
+    padding-top: 60px;
+}
+
+#watch {
+    padding-bottom: 55px;
+    padding-top: 50px;
+}
+
+#Footer {
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+
+video {
+    position: absolute;
+}
