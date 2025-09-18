@@ -1,0 +1,161 @@
+body {
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+    letter-spacing: 20px;
+    padding-left: 92.5px;
+}
+
+#Menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: -70px;
+}
+
+.Details {
+    font-size: 14px;
+}
+
+.Price {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+img {
+    width: 300px;
+    background-color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    justify-items: center;
+    transition-duration: 0.4s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+#Product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 40px;
+    gap: 15px;
+}
+
+#belt {
+    padding-bottom: 55px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#bag {
+    padding-bottom: 68px;
+    cursor: pointer;
+}
+
+#jacket {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+#purse {
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+#sunglasses {
+    padding-bottom: 45px;
+    padding-top: 60px;
+    cursor: pointer;
+}
+
+#watch {
+    padding-bottom: 55px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#Footer {
+    text-align: left;
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+
+video {
+    position: absolute;
+}
+
+.Click {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: 0.4s;
+}
+
+.Click:hover {
+    background-color: #e5e5e5;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.fa-shopping-cart {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.fa-shopping-cart b {
+    margin-left: 10px;
+    opacity: 0;
+    white-space: nowrap;
+    transition: all 0.5s ease;
+}
+
+.Add {
+    display: inline-flex;
+    align-items: center;
+}
+
+.fa-shopping-cart:hover {
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+
+.fa-shopping-cart:hover b {
+    opacity: 1;
+    color: white;
+}
+
+.fa-shopping-bag {
+    float: right;
+    margin-right: 20px;
+    transform: scale(0.7);
+    cursor: pointer;
+}
